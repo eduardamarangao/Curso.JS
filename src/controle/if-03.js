@@ -1,4 +1,4 @@
-let statusUsuario = 'banido'; // Pode ser: "ativo", "inativo", "banido" ou "pendente"
+let statusUsuario = 'ativo'; // Pode ser: "ativo", "inativo", "banido" ou "pendente"
 
 if (statusUsuario === 'ativo') {
     console.log('Bem-vindo de volta! Acesso permitido.');
