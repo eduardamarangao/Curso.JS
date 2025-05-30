@@ -1,4 +1,4 @@
-let chave = true;
+let chave = false;
 let corajoso = true;
 
 if (chave && corajoso) {
