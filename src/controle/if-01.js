@@ -1,5 +1,5 @@
-let chave = false;
-let corajoso = true;
+let chave = true;
+let corajoso = false;
 
 if (chave && corajoso) {
     console.log('O herói usa a chave e abre o baú! Tesouro encontrado!');
