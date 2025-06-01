@@ -1,14 +1,12 @@
 const pedidos = [
-    { id: 1, status: 'enviado' },
+    { id: 1, status: 'pendente' },
     { id: 2, status: 'enviado' },
     { id: 3, status: 'entregue' },
     { id: 4, status: 'cancelado' },
     { id: 5, status: 'pendente' },
 ];
 
-for (let i = 0; i < pedidos.length; i++) {
-    let pedido = pedidos[i];
-
+for (const pedido of pedidos) { 
     if (pedido.status === 'pendente') {
         console.log(`Pedido ${pedido.id}: Aguardando pagamento ou confirmação.`);
     } else if (pedido.status === 'enviado') {
@@ -19,5 +17,5 @@ for (let i = 0; i < pedidos.length; i++) {
         console.log(`Pedido ${pedido.id}: O pedido foi cancelado.`);
     } else {
         console.log(`Pedido ${pedido.id}: Status desconhecido.`);
-    } 
+    }
 }
