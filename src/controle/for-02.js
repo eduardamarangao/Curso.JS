@@ -21,7 +21,7 @@ let totalCompra = 0;
 for (let i = 0; i < carrinho.length; i++) {
     let item = carrinho[i];
     let subtotal = item.quantidade * item.preco;
-    totalCompra = totalCompra + subtotal;
+    totalCompra = totalCompra + subtotal; // totalCompra += subtotal
     console.log(`Item: ${item.nome} | Quantidade: ${item.quantidade} | Subtotal: R$${subtotal.toFixed(2)}`);
 }
 
